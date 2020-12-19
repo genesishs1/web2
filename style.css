@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  border: 60px #696969 solid;
+  height:0;
+  margin:0;
+}
+h1 a {
+  text-decoration: none;
+  color:#FFF5EE;
+  font-size: 30px;
+}
+.grid_1 li a {
+  text-decoration: none;
+  color:#FFF5EE;
+}
+ul {
+  padding:0;
+  margin:0;
+  border-bottom:20px solid #DCDCDC;
+}
+.grid_1 li {
+  text-align: center;
+  font-size:17px;
+  list-style-type:none;
+  border: 40px solid #696969;
+  height:0
+}
+.grid_1 {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid_2 {
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+}
+.article {
+  font-size:40px;
+}
+.article a {
+  text-decoration: none;
+  color:black;
+}
